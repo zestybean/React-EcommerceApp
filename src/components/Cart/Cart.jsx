@@ -18,7 +18,7 @@ const Cart = ({ cart }) => {
       <Grid container spacing={3}>
         {cart.line_items.map((item) => (
           <Grid items xs={12} sm={4} key={item.id}>
-            <div>{item.name}</div>
+            <Typography variant="body2">{item.name}</Typography>
           </Grid>
         ))}
       </Grid>
