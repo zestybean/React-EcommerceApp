@@ -23,7 +23,7 @@ const Product = ({ product, onAddToCart }) => {
         title={product.name}
       ></CardMedia>
       <CardContent>
-        <div className={classes.CardContent}>
+        <div className={classes.cardContent}>
           <Typography variant="h5" gutterBottom>
             {product.name}
           </Typography>
