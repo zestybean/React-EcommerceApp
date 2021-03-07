@@ -29,7 +29,7 @@ const Checkout = () => {
     <>
       <div className={classes.toolbar} />
       <main className={classes.layout}>
-        <Paper classes={classes.paper}>
+        <Paper className={classes.paper}>
           <Typography variant="h4" align="center">
             Checkout
           </Typography>
